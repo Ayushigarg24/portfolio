@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        * {
+            padding: 0;
+            border: 0;
+        }
+
+        body {
+            background: #040529;
+            color: white;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        nav {
+            background: #100343;
+            justify-content: space-around;
+            align-items: center;
+            display: flex;
+            height: 80px;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: wheat;
+        }
+
+        nav ul li a:hover {
+            color: rgb(48, 48, 129);
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 0 23px;
+        }
+
+        .leftsection {
+            font-size: 40px;
+            color: white;
+            width: 50%;
+        }
+
+        .leftsection p {
+            font-size: 20px;
+            align-items: center;
+        }
+
+        .rightsection {
+            width: 50%;
+        }
+
+        .rightsection img {
+            margin: 50px;
+            width: 80%
+        }
+
+        .secondsection {
+            max-width: 80vh;
+            margin: auto;
+        }
+        .secondsection hr{
+            font-size: 2rem;
+        }
+        .secondsection p{
+            font-size: 22px;
+        }
+        footer{
+            background: #100343;
+            justify-content: space-around;
+            align-items: center;
+            display: flex;
+            height: 80px;
+        }
+        footer div ul{
+            list-style: none;
+        }
+        main button:hover{
+            align-items: center;
+            color: blue;
+            background-color: aqua;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">My Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="mydetails.html">ABOUT</a></li>
+                    <li><a href="myskills.html">SKILLS</a></li>
+                    <li><a href="contact.html">CONTACT ME</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">Hello!<br>My name is Ayushi Garg.<br>I am a web developer<p>Lorem ipsum dolor sit
+                    amet consectetur adipisicing elit. Dicta molestiae magni vero dolores similique, quidem ab natus
+                    exercitationem ducimus. Molestiae nihil aspernatur delectus excepturi minima porro earum facere
+                    omnis rem odit. Veniam eaque laboriosam sit qui? Libero ipsa quidem voluptas repellat nemo iste eos
+                    est?</p>
+            </div>
+            <div class="rightsection">
+                <img src="https://www.websolution4u.com/wp-content/uploads/2020/07/2596842.png" alt="develper image"
+                    width>
+            </div>
+        </section>
+        <button>Download Resume</button>
+        <button>Git Hub</button>
+        <section id="SKILLS" class="secondsection">
+            <h1>Work Experience</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, voluptas cum id cumque perferendis fugiat
+                non ratione rerum labore possimus similique obcaecati sed sequi animi dolor maxime excepturi corrupti
+                repellendus atque expedita! Architecto explicabo iusto atque sunt eligendi deleniti, mollitia laborum
+                quibusdam esse quisquam officia assumenda id inventore doloremque ipsum voluptates accusantium culpa,
+                facilis itaque eius.</p>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <ul>
+                <li>Contact Me</li>
+                <li>Reviews</li>
+            </ul>
+        </div>
+        <p>www.ayushi.com <span>&copy</span>All rights are reserved.</p>
+    </footer>
+</body>
+
+</html>
